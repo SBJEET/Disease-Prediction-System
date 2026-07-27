@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Prediction Result</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Prediction Result</h1>
+
+<br>
+
+<h2 style="text-align:center;">
+
+Predicted Disease
+
+</h2>
+
+<br>
+
+<h1 style="color:red;">
+
+{{ disease }}
+
+</h1>
+
+<br>
+
+<h3>
+
+Symptoms Selected
+
+</h3>
+
+<ul>
+
+{% for s in selected %}
+
+<li>{{ s.replace("_"," ").title() }}</li>
+
+{% endfor %}
+
+</ul>
+
+<br>
+
+<a href="/">
+
+<button>
+
+Predict Again
+
+</button>
+
+</a>
+
+</div>
+
+</body>
+
+</html>
