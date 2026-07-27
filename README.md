@@ -251,16 +251,6 @@ This project demonstrates:
 
 ---
 
-# Author
-
-**Subhajeet Bhattacharyya**
-
-MCA Student
-
-Python Developer | Machine Learning Enthusiast
-
----
-
 # License
 
 This project is developed for educational purposes.
